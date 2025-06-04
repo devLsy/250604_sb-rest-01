@@ -1,4 +1,4 @@
-package com.lsy.sbrest01.user.model;
+package com.lsy.sbrest01.member.model;
 
 import lombok.Data;
 
