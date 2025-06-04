@@ -17,6 +17,9 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public int insertMember() throws Exception {
+
+        // TODO: validation 메서드
+
         return 0;
     }
 
