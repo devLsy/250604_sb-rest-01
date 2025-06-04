@@ -25,6 +25,17 @@ spring:
       readOnly: false
       connection-test-query: SELECT 1
 
+mybatis:
+  mapper-locations: classpath:mappers/**/*.xml
+  type-aliases-package: com.lsy.sbrest01.*.model
+  configuration:
+    jdbc-type-for-null: NULL
+    lazy-loading-enabled: true
+    multiple-result-sets-enabled: true
+    use-column-label: true
+    map-underscore-to-camel-case: true
+    default-statement-timeout: 25000
+
 #jasypt:
 #  encryptor:
 #    # JasyptConfig에 정의한 빈 이름
