@@ -4,7 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 
-import javax.validation.ValidationException;
+import jakarta.validation.ValidationException;
 import java.util.List;
 
 @Slf4j
